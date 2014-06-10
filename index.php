@@ -8,5 +8,7 @@
  * 若有什么建议可以发送邮件  kevin177710@gmail.com
  * 
  */
+//设置入口安全,非入口文件不能读取
+define('IS_SAFE',1);
 define('ROOT_PATH', __DIR__.'/');
 require ROOT_PATH.'Tea/Tea.php';
