@@ -8,5 +8,5 @@
  * 若有什么建议可以发送邮件  kevin177710@gmail.com
  * 
  */
-define('ROOT_PATH', dirname(__FILE__).'/');
+define('ROOT_PATH', __DIR__.'/');
 require ROOT_PATH.'Tea/Tea.php';

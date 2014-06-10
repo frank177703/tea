@@ -25,3 +25,5 @@ if(defined('ENVIRONMENT')){
 			exit('The application environment is not set correctly.');
 	}
 }
+
+defined('ROOT_PATH') or define('ROOT_PATH', substr(__DIR__,0,-6));
