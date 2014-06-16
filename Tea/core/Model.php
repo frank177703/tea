@@ -5,5 +5,6 @@ namespace Tea;
  * @author kevin
  */
 class Model{
+	public $db=null;
 	
 }

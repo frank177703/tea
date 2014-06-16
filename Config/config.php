@@ -4,17 +4,14 @@
 * 全局配置文件
 *---------------------------------------------------------------
 */
-//开始记录php运行时间
-$GLOBALS['_beginTime'] = microtime(TRUE);
-
-//检测PHP环境
-if(version_compare(PHP_VERSION,'5.4.0','<'))  die('require PHP > 5.4.0');
-
 //设置默认app目录
-define("APP_HOME", "Home");
+define('APP_HOME', 'Home');
+//配置默认类和方法
+define('APP_CLASS', 'index');
+define('APP_METHOD', 'index');
 
 //是否是调试模式
-define('APP_DEBUG',      false);
+define('APP_DEBUG', false);
 
 //设置数据库
 $database = array(
@@ -45,4 +42,6 @@ if(defined('ENVIRONMENT')){
 			exit('The application environment is not set correctly.');
 	}
 }
+
+
 

@@ -5,5 +5,8 @@ namespace Tea;
  * @author kevin
  */
 class Controller{
-	
+	public $tea = null;
+	function __construct(){
+		
+	}
 }
